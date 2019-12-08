@@ -11,6 +11,7 @@ func main() {
 	binarySearchSortedArray(primes)
 }
 
+//function to determine if a number is prime
 func isPrime(n int) bool {
 	if(n <= 2) {
 		return true
